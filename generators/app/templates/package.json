@@ -1,5 +1,5 @@
 {
-  "name": "<%= appname %>",
+  "name": "<%= name %>",
   "version": "0.0.1",
   "description": "",
   "license": "MIT",
@@ -61,7 +61,9 @@
     ]
   },
   "jest": {
-    "testMatch": ["<rootDir>/tests/**/*.ts"],
+    "testMatch": [
+      "<rootDir>/tests/**/*.ts"
+    ],
     "preset": "ts-jest"
   }
 }

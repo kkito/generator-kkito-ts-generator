@@ -1,6 +1,6 @@
 {
   "name": "generator-kkito-ts-generator",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "",
   "homepage": "",
   "author": {
@@ -72,7 +72,7 @@
     ]
   },
   "scripts": {
-    "pretest": "eslint .",
+    "pretest": "eslint --fix .",
     "test": "jest"
   },
   "repository": "kkito/generator-kkito-ts-generator",
