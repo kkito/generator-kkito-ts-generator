@@ -7,10 +7,10 @@ describe("generator-kkito-ts-generator:app", () => {
   beforeAll(() => {
     return helpers
       .run(path.join(__dirname, "../generators/app"))
-      .withPrompts({ someAnswer: true });
+      .withPrompts({ name: "testapp" });
   });
 
   it("creates files", () => {
-    assert.file(["dummyfile.txt"]);
+    assert.file(["package.json"]);
   });
 });

@@ -38,6 +38,9 @@
     "yosay": "^2.0.1"
   },
   "jest": {
+    "testMatch": [
+      "<rootDir>/__tests__/**/*.js"
+    ],
     "testEnvironment": "node"
   },
   "lint-staged": {
