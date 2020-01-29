@@ -3,3 +3,11 @@ node_js:
 - node
 script:
 - npm run test
+deploy:
+  provider: npm
+  email: kkitokkito@gmail.com
+  api_key:
+    secure: SgoV9+oRLXCdR5baowjnLBoih9kj2ZU91ZLc/yqQCXvixosjfSqfHd8uPdlXLNOWHe1ugq0IGA44Pw3HOqFuPPXJlojqZIDxSnxt5VIBGerjYuBfZpM9m1CskcgsZJMngoZQs8GfpXYGmJJOVXr5tvDSvIjtr7+TR2io5BbAnmEQKDmcr6eh3O8VzktSJj4RHDDwJ8egEqtEIwr8g3IJdVkRrR+/bOmaOHEtfSTk40/9LEeuk/IWYCex6Lvt62Hvn6BuzRJBhi9PZ69zv7uLSAIH2CgOayGqZGAbtpO2B+M0IVg6MaqH+BirwVD8ALbt9MWAYrju91BWvoOlHGF7dj9Fw8Sms16CMygIanEUKqkfWLXqEIvuhhZDYJ8+KDRGdTJcq6wA+FjPstk+gomlpOcxBQMfPce/0vLpyhxQtzTb713NKfY2FwiUkdXgjn+Oeytf40+Ci+nNsdajGv+ANbTFuydRJqHOHdVTf0iQUDsEhpoAbSx4B5txli+d1C2maWTo/5Q9SgHwhuAFZII5m2i9UkTkPsrmXozVn7jpt1saqXFbTp+z3s2gLLWWN4iGVcEulkd1qtbPkQH5dLGrCV+b9aZsR+4l/a2Tu1dIQ0n9BWaQPm5zmRVjAyZ9FCdVPL9RTbsVgtlO6wUkIg4RdQuRpmsSMW2ipAEWMv4roUo=
+  on:
+    tags: true
+    repo: kkito/generator-kkito-ts-generator
