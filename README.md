@@ -1,3 +1,6 @@
+[![Build Status](https://www.travis-ci.org/kkito/generator-kkito-ts-generator.svg?branch=master)](https://www.travis-ci.org/kkito/generator-kkito-ts-generator)
+[![npm version](https://badge.fury.io/js/generator-kkito-ts-generator.svg)](https://badge.fury.io/js/generator-kkito-ts-generator)
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-kkito-ts-generator using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
