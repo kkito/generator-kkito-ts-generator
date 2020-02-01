@@ -36,6 +36,7 @@ module.exports = class extends Generator {
     const files = [
       "__package.json",
       "README.md",
+      ".gitignore",
       "src/index.ts",
       "tests/index.spec.ts",
       "tsconfig.json",
