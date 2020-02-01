@@ -11,6 +11,6 @@ describe("generator-kkito-ts-generator:app", () => {
   });
 
   it("creates files", () => {
-    assert.file(["package.json"]);
+    assert.file(["package.json", ".gitignore"]);
   });
 });
