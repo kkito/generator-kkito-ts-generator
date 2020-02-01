@@ -34,7 +34,7 @@ module.exports = class extends Generator {
 
   writing() {
     const files = [
-      "package.json",
+      "__package.json",
       "README.md",
       "src/index.ts",
       "tests/index.spec.ts",
