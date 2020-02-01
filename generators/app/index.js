@@ -42,9 +42,10 @@ module.exports = class extends Generator {
       "tslint.json"
     ];
     for (const f of files) {
+      const target = f.replace("__", "");
       this.fs.copyTpl(
         this.templatePath(f),
-        this.destinationPath(f),
+        this.destinationPath(target),
         this.props
       );
     }

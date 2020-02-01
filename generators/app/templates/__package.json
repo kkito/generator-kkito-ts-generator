@@ -9,12 +9,8 @@
     "email": "kkitokkito@126.com",
     "url": "kkito.cn"
   },
-  "keywords": [
-    ""
-  ],
-  "files": [
-    "lib"
-  ],
+  "keywords": [""],
+  "files": ["lib"],
   "main": "lib/index",
   "types": "lib/index",
   "scripts": {
@@ -61,9 +57,7 @@
     ]
   },
   "jest": {
-    "testMatch": [
-      "<rootDir>/tests/**/*.ts"
-    ],
+    "testMatch": ["<rootDir>/tests/**/*.ts"],
     "preset": "ts-jest"
   }
 }
