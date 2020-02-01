@@ -1,6 +1,6 @@
 {
   "name": "generator-kkito-ts-generator",
-  "version": "0.1.2",
+  "version": "0.1.4",
   "description": "yeoman typescript generator ts",
   "homepage": "https://github.com/kkito/generator-kkito-ts-generator",
   "author": {

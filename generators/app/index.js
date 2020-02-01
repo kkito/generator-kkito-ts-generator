@@ -34,16 +34,17 @@ module.exports = class extends Generator {
 
   writing() {
     const files = [
-      "__package.json",
+      "_package.json",
+      "__gitignore",
       "README.md",
-      ".gitignore",
       "src/index.ts",
       "tests/index.spec.ts",
       "tsconfig.json",
       "tslint.json"
     ];
     for (const f of files) {
-      const target = f.replace("__", "");
+      let target = f.replace("__", ".");
+      target = target.replace("_", "");
       this.fs.copyTpl(
         this.templatePath(f),
         this.destinationPath(target),
